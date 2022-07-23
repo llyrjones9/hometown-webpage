@@ -1,0 +1,90 @@
+@font-face {
+    font-family: HM;
+    src: url("fonts/HM.ttf");
+  }
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: HM;
+    color: #DFE4F5;
+    text-shadow: 0px 0px 5px #000000;
+    background: #b9dbe9;
+}
+
+#hero {
+    margin: 0px;
+    padding: 20px 0px 20px;
+    background-image: url("images/Aberystwyth.jpg");
+    background-size: cover;
+    height: 180px;
+}
+
+h1{
+    font-size: 100px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
+h2{
+    font-size: 40px;    
+    margin: 0px;
+}
+
+#main{
+    margin: 0px;
+    padding: 0px;   
+}
+
+h3{
+    font-size: 25px;    
+    margin: 0px;
+    padding: 4px 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    height: 245px;
+}
+
+.image{
+    border-radius: 10px;
+    height: 200px;
+    border: 6px solid white;
+    background-size:cover;
+    background-position: center;
+}
+
+.img-cnt{
+    border-radius: 10px;
+    background: white;
+    height: 200px;
+    width: 350px;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    margin: 0px;
+    padding: 4px 0px;
+    text-shadow: none;
+}
+
+#consti{
+    background-image: url("images/consti.jpg");
+}
+
+#beach{
+    background-image: url("images/beach.jpg");
+}
+
+#pier{
+    background-image: url("images/pier.jpg");
+}
+
+h4{
+    margin: 0px;
+    padding: 4px 0px;
+    font-size: 20px;
+}
